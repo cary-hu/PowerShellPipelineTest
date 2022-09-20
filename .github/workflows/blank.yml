@@ -22,4 +22,5 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: rajbos/actions-testing@v1
+      - name: Install
+        run: Write-Host "Hello World"
